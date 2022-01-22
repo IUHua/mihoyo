@@ -1,0 +1,453 @@
+@media (min-width: 768px) {
+	body {
+		overflow-x: hidden;
+	}
+	.navbar-default {
+		height: 8vh;
+		width: 100%;
+		min-height: 8vh;
+		margin-bottom: 1vh;
+		background: rgba(0, 0, 0, .3);
+		.container-fluid {
+			height: 8vh;
+			padding: 0;
+			width: 100%;
+			.navbar-header {
+				height: 8vh;
+				a {
+					color: white;
+					padding-top: 0;
+					span {
+						display: inline-block;
+						border-radius: 50%;
+						width: 2vw;
+						height: 2vw;
+						text-align: center;
+						line-height: 2vw;
+						font-size: 2vw;
+						position: absolute;
+						top: 1vw;
+						left: 3vw;
+					}
+					img {
+						height: 8vh;
+						margin: 0;
+						padding: 0;
+						margin-right: -6vw;
+					}
+				}
+			}
+			.navbar-collapse {
+				background: rgba(0, 0, 0, .3);
+				width: 100%;
+				height: 8vh !important;
+				ul {
+					margin: 0;
+					height: 8vh;
+					padding: 0;
+					&:nth-child(1) {
+						height: 8vh;
+						width: 50vw;
+						li {
+							height: 100%;
+							line-height: 8vh;
+							width: 15%;
+							text-align: center;
+							a {
+								margin: 0;
+								padding: 0;
+								line-height: 8vh;
+								color: white;
+								font-size: 1.3vw;
+							}
+						}
+					}
+					&:nth-child(2) {
+						height: 8vh;
+						width: 28vw;
+						margin: 0;
+						padding: 0;
+						li {
+							margin: 0;
+							padding: 0;
+							line-height: 8vh;
+							color: white;
+							font-size: 1.3vw;
+							width: 50%;
+							text-align: center;
+							a {
+								margin: 0;
+								padding: 0;
+								line-height: 8vh;
+								color: white;
+								font-size: 1.2vw;
+								span {
+									color: #4c4c3c;
+									display: inline-block;
+									width: 2vw;
+									height: 2vw;
+									font-size: 1.3vw;
+									border-radius: 50%;
+									text-align: center;
+									line-height: 4vh;
+									background: gainsboro;
+									margin-left: 2vw;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.section0 {
+		height: 100vh;
+		width: 100vw;
+		overflow: hidden;
+		> img {
+			position: absolute;
+			top: 60vh;
+			z-index: 1;
+			left: 39vw;
+			width: 20vw;
+		}
+		> span {
+			display: inline-block;
+			position: absolute;
+			color: white;
+			font-size: 2vw;
+			top: 62%;
+			left: 48.2vw;
+		}
+	}
+	.section1 {
+		width: 100vw;
+		height: 110vh;
+		background: url(../img/yshome/ys-sec1-bg.jpg) no-repeat 100%/cover;
+		padding: 0 10%;
+		h1 {
+			text-align: center;
+			color: white;
+			margin-top: 10%;
+			font-size: 50px;
+			font-weight: 700;
+		}
+		.col-md-6 {
+			&:nth-child(2) {
+			}
+			&:nth-child(3) {
+				position: relative;
+				background: rgba(0, 0, 0, .3);
+				height: 42%;
+				ul {
+					list-style: none;
+					&:nth-child(1) {
+						height: 50px;
+						margin-top: 10px;
+						li {
+							color: white;
+							height: 50px;
+							width: 10%;
+							font-size: 18px;
+							display: inline-block;
+							line-height: 50px;
+						}
+					}
+					&:nth-child(2) {
+						padding-left: 20px;
+						li {
+							width: 90%;
+							padding-left: 20px;
+							line-height: 50px;
+							border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+							color: white;
+							height: 50px;
+							font-size: 18px;
+							&:nth-child(1) {
+								border-top: 1px solid rgba(255, 255, 255, 0.3);
+							}
+						}
+					}
+				}
+				p {
+					position: absolute;
+					color: rosybrown;
+					bottom: 5%;
+					right: 10%;
+					text-align: right;
+					span {
+						margin: 0 20px;
+						border: 1px solid rosybrown;
+						padding: 2px;
+					}
+				}
+			}
+		}
+	}
+	.section2 {
+		width: 100vw;
+		margin: auto;
+		box-sizing: border-box;
+		div {
+			box-sizing: border-box;
+			text-align: right;
+			position: relative;
+			padding: 0;
+			span {
+				width: 100%;
+				height: 100%;
+				line-height: 260px;
+				display: block;
+				background: rgba(0, 0, 0, .3);
+				text-align: center;
+				color: white;
+				font-size: 45px;
+				position: absolute;
+				top: 0;
+				transition: all .2s linear;
+				aa {
+					padding: 10px;
+				}
+				&:hover {
+					background: transparent;
+					border: 10px solid white;
+					aa {
+						border-bottom: 5px solid rgba(187, 187, 187, .5);
+					}
+				}
+			}
+		}
+		.ys-md {
+			background: url(../img/yshome/ys-md-bg.jpg) no-repeat center/cover;
+		}
+		.ys-ly {
+			background: url(../img/yshome/ys-ly-bg.jpg) no-repeat center/cover;
+		}
+		.ys-dq {
+			background: url(../img/yshome/ys-dq-bg.jpg) no-repeat center/cover;
+		}
+		.qidai {
+			height: 260px;
+			background: rgb(112, 112, 112);
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	> body {
+		width: 100vw;
+		overflow-x: hidden;
+		.navbar-default {
+			height: 65px;
+			background: rgba(0, 0, 0, .3);
+			.container-fluid {
+				height: 65px;
+				background: rgba(0, 0, 0, .3);
+				color: red;
+				.navbar-header {
+					height: 65px;
+					background: rgba(0, 0, 0, .3);
+					.navbar-toggle {
+						border: none;
+						margin-right: 30px;
+						.icon-bar {
+							width: 30px;
+							height: 5px;
+						}
+					}
+					a {
+						color: white;
+						padding-top: 0;
+						span {
+							display: inline-block;
+							border-radius: 50%;
+							border: 1px solid white;
+							width: 30px;
+							height: 30px;
+							text-align: center;
+							line-height: 30px;
+							position: absolute;
+							top: calc(50% - 15px);
+							left: 7%;
+							&:nth-child(1) {
+								display: none;
+							}
+						}
+						img {
+							height: 65px;
+							margin: 0;
+							padding: 0;
+							margin-left: -120px;
+							margin-right: -120px;
+						}
+					}
+				}
+				.navbar-collapse {
+					background: white;
+					ul {
+						&:nth-child(2) {
+							li {
+								background: gainsboro;
+								margin: 0px 0 10px 0;
+							}
+						}
+					}
+				}
+			}
+		}
+		.section0 {
+			margin: 0;
+			padding: 0;
+			overflow-x: hidden;
+			width: 100vw;
+			video {
+				height: 100%;
+				width: auto;
+				border: 1px solid red;
+				margin-left: -50%;
+			}
+			height: 100vh;
+			overflow: hidden;
+			text-align: center;
+			> img {
+				position: absolute;
+				top: 60%;
+				z-index: 1;
+				width: 100vw;
+				margin: 0;
+				padding: 0;
+			}
+			> span {
+				display: inline-block;
+				position: absolute;
+				color: white;
+				font-size: 30px;
+				top: 63%;
+				left: calc(50% - 12px);
+				margin: 0;
+				padding: 0;
+			}
+		}
+		.section1 {
+			height: 110vh;
+			background: url(../img/yshome/ys-sec1-bg.jpg);
+			padding: 0 5%;
+			h1 {
+				text-align: center;
+				color: white;
+				margin: 10% 0;
+				font-weight: 700;
+				font-size: 20px;
+			}
+			.col-md-6 {
+				&:nth-child(2) {
+				}
+				&:nth-child(3) {
+					margin-top: 10px;
+					position: relative;
+					height: 62%;
+					border: 1px solid transparent;
+					ul {
+						list-style: none;
+						&:nth-child(1) {
+							margin-top: 20px;
+							li {
+								color: white;
+								width: 20%;
+								font-size: 18px;
+								display: inline-block;
+							}
+						}
+						&:nth-child(2) {
+							padding-left: 20px;
+							li {
+								width: 90%;
+								padding-left: 20px;
+								line-height: 40px;
+								border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+								color: white;
+								height: 40px;
+								font-size: 16px;
+								position: relative;
+								&:nth-child(1) {
+									border-top: 1px solid rgba(255, 255, 255, 0.3);
+								}
+								span {
+									position: absolute;
+									color: rgb(161, 161, 161);
+									font-size: 12px;
+									right: 0;
+								}
+							}
+						}
+					}
+					p {
+						position: absolute;
+						color: rosybrown;
+						bottom: 5%;
+						right: 10%;
+						text-align: right;
+						span {
+							margin: 0 20px;
+							border: 1px solid rosybrown;
+							padding: 2px;
+						}
+					}
+				}
+			}
+		}
+		.section2 {
+			overflow-x: hidden;
+			div {
+				box-sizing: border-box;
+				text-align: right;
+				position: relative;
+				padding: 0;
+				height: 120px;
+				background-size: 10%;
+				background-position: 100px 100px;
+				img {
+					height: 120px;
+					position: absolute;
+					right: -30%;
+				}
+				span {
+					width: 100%;
+					height: 100%;
+					line-height: 120px;
+					display: block;
+					background: rgba(0, 0, 0, .3);
+					text-align: center;
+					color: white;
+					font-size: 18px;
+					position: absolute;
+					top: 0;
+					transition: all .2s linear;
+					aa {
+						padding: 10px;
+					}
+					&:hover {
+						background: transparent;
+						border: 5px solid white;
+						aa {
+							border-bottom: 5px solid rgba(255, 255, 255, 0.8);
+						}
+					}
+				}
+			}
+			.ys-md {
+				background: url(../img/yshome/ys-md-bg.jpg);
+			}
+			.ys-ly {
+				background: url(../img/yshome/ys-ly-bg.jpg);
+			}
+			.ys-dq {
+				background: url(../img/yshome/ys-dq-bg.jpg);
+			}
+			.qidai {
+				height: 120px;
+				background: rgb(112, 112, 112);
+			}
+		}
+	}
+}

@@ -1,0 +1,246 @@
+@media (min-width: 768px) {
+	body {
+		background: #f4f4f6;
+		padding-top: 100px;
+	}
+	.navbar-default {
+		background: #0c8cf6;
+		height: 80px;
+		padding: 15px 100px;
+		.navbar-collapse {
+			ul {
+				margin-left: 4%;
+				width: 80%;
+				> .active {
+					a {
+						color: white;
+						background: transparent;
+						&:hover {
+							background: transparent;
+						}
+					}
+				}
+				li {
+					width: 15%;
+					a {
+						text-align: center;
+
+						color: rgb(255, 255, 255);
+					}
+				}
+			}
+		}
+	}
+	.col-md-8 {
+		text-align: right;
+		> div {
+			background: white;
+			text-align: left;
+			width: 80%;
+			padding: 20px;
+			display: inline-block;
+		}
+		.c8inp {
+			p {
+				&:nth-child(1) {
+					display: flex;
+					justify-content: space-between;
+					> span {
+						font-size: 16px;
+					}
+					aa {
+						span {
+							font-size: 14px;
+							color: rgb(161, 161, 161);
+						}
+					}
+				}
+				&:nth-child(2) {
+					height: 45px;
+					overflow: hidden;
+					background: #0c8cf6;
+					outline: 1px solid rgb(167, 167, 167);
+					border-radius: 5px;
+					input {
+						border: none;
+						width: 79%;
+						height: 45px;
+						font-size: 1.7rem;
+						color: gray;
+						&:focus {
+							outline: none;
+						}
+					}
+					span {
+						display: inline-block;
+						text-align: center;
+						width: 20%;
+						height: 50px;
+						color: white;
+					}
+				}
+			}
+			select {
+				width: 23%;
+				height: 40px;
+				border-radius: 5px;
+				option {
+					&:hover {
+						background: pink;
+					}
+				}
+			}
+		}
+		.c8content {
+			margin-top: 20px;
+			padding: 0;
+			ul {
+				list-style: none;
+				padding: 0;
+				li {
+					padding: 25px;
+					height: 130px;
+					position: relative;
+					&:hover {
+						background: #f7f7f7;
+					}
+					p {
+						line-height: 20px;
+						&:nth-of-type(1) {
+							font-size: 18px;
+							font-weight: 700;
+							span {
+								font-size: 16px;
+								font-weight: 500;
+								background: #ff6b6b;
+								padding: 5px;
+								color: white;
+							}
+						}
+						&:nth-of-type(2) {
+							color: rgb(158, 158, 158);
+						}
+						&:nth-of-type(3) {
+							color: rgb(126, 126, 126);
+							font-weight: 600;
+						}
+					}
+					> span {
+						position: absolute;
+						right: 1%;
+						top: 10%;
+						padding: 1%;
+						&:hover {
+							background: red;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.col-md-4 {
+		.c4box {
+			background: white;
+			width: 60%;
+			padding: 20px;
+			position: relative;
+			p {
+				display: flex;
+				justify-content: space-between;
+			}
+			ul {
+				list-style: none;
+				padding: 0;
+				li {
+					height: 50px;
+					line-height: 50px;
+					span {
+						font-size: 16px;
+						font-weight: 500;
+						background: #ff6b6b;
+						padding: 5px;
+						color: white;
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 786px) {
+	body {
+		padding-top: 50px;
+	}
+	.box {
+		display: none;
+	}
+	.navbar-default {
+		background: #c2c2c2;
+		margin: 0;
+	}
+	.col-md-8 {
+		padding: 0;
+		.c8inp {
+			p {
+				&:nth-child(1) {
+					display: none;
+				}
+				&:nth-child(2) {
+					width: 100%;
+					background: rgb(243, 243, 243);
+					padding: 5px 7%;
+
+					input {
+						width: 80%;
+						border: none;
+						padding: 5px;
+					}
+					> span {
+						&:nth-of-type(1) {
+							display: none;
+						}
+						margin-left: 5%;
+						padding: 5px;
+					}
+				}
+			}
+			select {
+				display: none;
+			}
+		}
+		.c8content {
+			ul {
+				list-style: none;
+				padding: 0;
+				li {
+					margin-top: 10px;
+					border-bottom: 1px solid rgb(206, 206, 206);
+					padding-left: 5%;
+					p {
+						&:nth-child(1) {
+							font-weight: 600;
+							span {
+								color: white;
+								background: orange;
+								padding: 5px;
+							}
+						}
+						&:nth-child(2) {
+							color: rgb(150, 150, 150);
+							font-size: 1.2rem;
+							margin-top: 20px;
+							margin-bottom: 0%;
+						}
+						&:nth-child(3) {
+							color: rgb(150, 150, 150);
+							font-size: 1.2rem;
+						}
+					}
+				}
+			}
+		}
+	}
+	.col-md-4 {
+		display: none;
+	}
+}

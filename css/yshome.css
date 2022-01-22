@@ -1,0 +1,440 @@
+@media (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .navbar-default {
+    height: 8vh;
+    width: 100%;
+    min-height: 8vh;
+    margin-bottom: 1vh;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .navbar-default .container-fluid {
+    height: 8vh;
+    padding: 0;
+    width: 100%;
+  }
+  .navbar-default .container-fluid .navbar-header {
+    height: 8vh;
+  }
+  .navbar-default .container-fluid .navbar-header a {
+    color: white;
+    padding-top: 0;
+  }
+  .navbar-default .container-fluid .navbar-header a span {
+    display: inline-block;
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+    text-align: center;
+    line-height: 2vw;
+    font-size: 2vw;
+    position: absolute;
+    top: 1vw;
+    left: 3vw;
+  }
+  .navbar-default .container-fluid .navbar-header a img {
+    height: 8vh;
+    margin: 0;
+    padding: 0;
+    margin-right: -6vw;
+  }
+  .navbar-default .container-fluid .navbar-collapse {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 8vh !important;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul {
+    margin: 0;
+    height: 8vh;
+    padding: 0;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(1) {
+    height: 8vh;
+    width: 50vw;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(1) li {
+    height: 100%;
+    line-height: 8vh;
+    width: 15%;
+    text-align: center;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(1) li a {
+    margin: 0;
+    padding: 0;
+    line-height: 8vh;
+    color: white;
+    font-size: 1.3vw;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) {
+    height: 8vh;
+    width: 28vw;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) li {
+    margin: 0;
+    padding: 0;
+    line-height: 8vh;
+    color: white;
+    font-size: 1.3vw;
+    width: 50%;
+    text-align: center;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) li a {
+    margin: 0;
+    padding: 0;
+    line-height: 8vh;
+    color: white;
+    font-size: 1.2vw;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) li a span {
+    color: #4c4c3c;
+    display: inline-block;
+    width: 2vw;
+    height: 2vw;
+    font-size: 1.3vw;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 4vh;
+    background: gainsboro;
+    margin-left: 2vw;
+  }
+  .section0 {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .section0 > img {
+    position: absolute;
+    top: 60vh;
+    z-index: 1;
+    left: 39vw;
+    width: 20vw;
+  }
+  .section0 > span {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    top: 62%;
+    left: 48.2vw;
+  }
+  .section1 {
+    width: 100vw;
+    height: 110vh;
+    background: url(../img/yshome/ys-sec1-bg.jpg) no-repeat 100% / cover;
+    padding: 0 10%;
+  }
+  .section1 h1 {
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .section1 .col-md-6:nth-child(3) {
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    height: 42%;
+  }
+  .section1 .col-md-6:nth-child(3) ul {
+    list-style: none;
+  }
+  .section1 .col-md-6:nth-child(3) ul:nth-child(1) {
+    height: 50px;
+    margin-top: 10px;
+  }
+  .section1 .col-md-6:nth-child(3) ul:nth-child(1) li {
+    color: white;
+    height: 50px;
+    width: 10%;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 50px;
+  }
+  .section1 .col-md-6:nth-child(3) ul:nth-child(2) {
+    padding-left: 20px;
+  }
+  .section1 .col-md-6:nth-child(3) ul:nth-child(2) li {
+    width: 90%;
+    padding-left: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    height: 50px;
+    font-size: 18px;
+  }
+  .section1 .col-md-6:nth-child(3) ul:nth-child(2) li:nth-child(1) {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .section1 .col-md-6:nth-child(3) p {
+    position: absolute;
+    color: rosybrown;
+    bottom: 5%;
+    right: 10%;
+    text-align: right;
+  }
+  .section1 .col-md-6:nth-child(3) p span {
+    margin: 0 20px;
+    border: 1px solid rosybrown;
+    padding: 2px;
+  }
+  .section2 {
+    width: 100vw;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .section2 div {
+    box-sizing: border-box;
+    text-align: right;
+    position: relative;
+    padding: 0;
+  }
+  .section2 div span {
+    width: 100%;
+    height: 100%;
+    line-height: 260px;
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 0;
+    transition: all 0.2s linear;
+  }
+  .section2 div span aa {
+    padding: 10px;
+  }
+  .section2 div span:hover {
+    background: transparent;
+    border: 10px solid white;
+  }
+  .section2 div span:hover aa {
+    border-bottom: 5px solid rgba(187, 187, 187, 0.5);
+  }
+  .section2 .ys-md {
+    background: url(../img/yshome/ys-md-bg.jpg) no-repeat center / cover;
+  }
+  .section2 .ys-ly {
+    background: url(../img/yshome/ys-ly-bg.jpg) no-repeat center / cover;
+  }
+  .section2 .ys-dq {
+    background: url(../img/yshome/ys-dq-bg.jpg) no-repeat center / cover;
+  }
+  .section2 .qidai {
+    height: 260px;
+    background: #707070;
+  }
+}
+@media (max-width: 768px) {
+   > body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+   > body .navbar-default {
+    height: 65px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+   > body .navbar-default .container-fluid {
+    height: 65px;
+    background: rgba(0, 0, 0, 0.3);
+    color: red;
+  }
+   > body .navbar-default .container-fluid .navbar-header {
+    height: 65px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+   > body .navbar-default .container-fluid .navbar-header .navbar-toggle {
+    border: none;
+    margin-right: 30px;
+  }
+   > body .navbar-default .container-fluid .navbar-header .navbar-toggle .icon-bar {
+    width: 30px;
+    height: 5px;
+  }
+   > body .navbar-default .container-fluid .navbar-header a {
+    color: white;
+    padding-top: 0;
+  }
+   > body .navbar-default .container-fluid .navbar-header a span {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 7%;
+  }
+   > body .navbar-default .container-fluid .navbar-header a span:nth-child(1) {
+    display: none;
+  }
+   > body .navbar-default .container-fluid .navbar-header a img {
+    height: 65px;
+    margin: 0;
+    padding: 0;
+    margin-left: -120px;
+    margin-right: -120px;
+  }
+   > body .navbar-default .container-fluid .navbar-collapse {
+    background: white;
+  }
+   > body .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) li {
+    background: gainsboro;
+    margin: 0px 0 10px 0;
+  }
+   > body .section0 {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+  }
+   > body .section0 video {
+    height: 100%;
+    width: auto;
+    border: 1px solid red;
+    margin-left: -50%;
+  }
+   > body .section0 > img {
+    position: absolute;
+    top: 60%;
+    z-index: 1;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+   > body .section0 > span {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 63%;
+    left: calc(50% - 12px);
+    margin: 0;
+    padding: 0;
+  }
+   > body .section1 {
+    height: 110vh;
+    background: url(../img/yshome/ys-sec1-bg.jpg);
+    padding: 0 5%;
+  }
+   > body .section1 h1 {
+    text-align: center;
+    color: white;
+    margin: 10% 0;
+    font-weight: 700;
+    font-size: 20px;
+  }
+   > body .section1 .col-md-6:nth-child(3) {
+    margin-top: 10px;
+    position: relative;
+    height: 62%;
+    border: 1px solid transparent;
+  }
+   > body .section1 .col-md-6:nth-child(3) ul {
+    list-style: none;
+  }
+   > body .section1 .col-md-6:nth-child(3) ul:nth-child(1) {
+    margin-top: 20px;
+  }
+   > body .section1 .col-md-6:nth-child(3) ul:nth-child(1) li {
+    color: white;
+    width: 20%;
+    font-size: 18px;
+    display: inline-block;
+  }
+   > body .section1 .col-md-6:nth-child(3) ul:nth-child(2) {
+    padding-left: 20px;
+  }
+   > body .section1 .col-md-6:nth-child(3) ul:nth-child(2) li {
+    width: 90%;
+    padding-left: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    height: 40px;
+    font-size: 16px;
+    position: relative;
+  }
+   > body .section1 .col-md-6:nth-child(3) ul:nth-child(2) li:nth-child(1) {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+  }
+   > body .section1 .col-md-6:nth-child(3) ul:nth-child(2) li span {
+    position: absolute;
+    color: #a1a1a1;
+    font-size: 12px;
+    right: 0;
+  }
+   > body .section1 .col-md-6:nth-child(3) p {
+    position: absolute;
+    color: rosybrown;
+    bottom: 5%;
+    right: 10%;
+    text-align: right;
+  }
+   > body .section1 .col-md-6:nth-child(3) p span {
+    margin: 0 20px;
+    border: 1px solid rosybrown;
+    padding: 2px;
+  }
+   > body .section2 {
+    overflow-x: hidden;
+  }
+   > body .section2 div {
+    box-sizing: border-box;
+    text-align: right;
+    position: relative;
+    padding: 0;
+    height: 120px;
+    background-size: 10%;
+    background-position: 100px 100px;
+  }
+   > body .section2 div img {
+    height: 120px;
+    position: absolute;
+    right: -30%;
+  }
+   > body .section2 div span {
+    width: 100%;
+    height: 100%;
+    line-height: 120px;
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    transition: all 0.2s linear;
+  }
+   > body .section2 div span aa {
+    padding: 10px;
+  }
+   > body .section2 div span:hover {
+    background: transparent;
+    border: 5px solid white;
+  }
+   > body .section2 div span:hover aa {
+    border-bottom: 5px solid rgba(255, 255, 255, 0.8);
+  }
+   > body .section2 .ys-md {
+    background: url(../img/yshome/ys-md-bg.jpg);
+  }
+   > body .section2 .ys-ly {
+    background: url(../img/yshome/ys-ly-bg.jpg);
+  }
+   > body .section2 .ys-dq {
+    background: url(../img/yshome/ys-dq-bg.jpg);
+  }
+   > body .section2 .qidai {
+    height: 120px;
+    background: #707070;
+  }
+}

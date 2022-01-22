@@ -1,0 +1,535 @@
+@media (min-width: 768px) {
+  .navbar-default {
+    height: 8vh;
+    width: 100%;
+    min-height: 8vh;
+    margin-bottom: 1vh;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .navbar-default .container-fluid {
+    height: 8vh;
+    padding: 0;
+    width: 100%;
+  }
+  .navbar-default .container-fluid .navbar-header {
+    height: 8vh;
+  }
+  .navbar-default .container-fluid .navbar-header a {
+    color: white;
+    padding-top: 0;
+  }
+  .navbar-default .container-fluid .navbar-header a span {
+    display: inline-block;
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+    text-align: center;
+    line-height: 2vw;
+    font-size: 2vw;
+    position: absolute;
+    top: 1vw;
+    left: 3vw;
+  }
+  .navbar-default .container-fluid .navbar-header a img {
+    height: 8vh;
+    margin: 0;
+    padding: 0;
+    margin-right: -6vw;
+  }
+  .navbar-default .container-fluid .navbar-collapse {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 8vh !important;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul {
+    margin: 0;
+    height: 8vh;
+    padding: 0;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(1) {
+    height: 8vh;
+    width: 50vw;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(1) li {
+    height: 100%;
+    line-height: 8vh;
+    width: 15%;
+    text-align: center;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(1) li a {
+    margin: 0;
+    padding: 0;
+    line-height: 8vh;
+    color: white;
+    font-size: 1.3vw;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) {
+    height: 8vh;
+    width: 28vw;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) li {
+    margin: 0;
+    padding: 0;
+    line-height: 8vh;
+    color: white;
+    font-size: 1.3vw;
+    width: 50%;
+    text-align: center;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) li a {
+    margin: 0;
+    padding: 0;
+    line-height: 8vh;
+    color: white;
+    font-size: 1.2vw;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) li a span {
+    color: #4c4c3c;
+    display: inline-block;
+    width: 2vw;
+    height: 2vw;
+    font-size: 1.3vw;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 4vh;
+    background: gainsboro;
+    margin-left: 2vw;
+  }
+  #section0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+  #section0 div p:last-child {
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1), transparent);
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  #section0 div:nth-child(2) img:last-child {
+    transform: rotateY(180deg);
+  }
+  #section0 img:nth-child(4) {
+    width: 3vw;
+    position: absolute;
+    bottom: 5vh;
+    background: rgba(0, 0, 0, 0.3);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  }
+  #section0 img:nth-child(5) {
+    position: absolute;
+    bottom: 5vh;
+    animation: san 1s linear infinite;
+  }
+  #section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+  #section1 > div {
+    margin: 3vh 0;
+  }
+  #section1 > div:nth-child(2) {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #section1 > div:nth-child(2) h1 {
+    display: inline-block;
+    width: 6vw;
+    padding: 0;
+    margin: 0;
+    font-size: 2vw;
+  }
+  #section1 > div:nth-child(2) img {
+    width: 12vw;
+  }
+  #section1 > div:nth-child(2) img:nth-child(3) {
+    transform: rotateY(180deg);
+  }
+  #section1 img:nth-child(1) {
+    width: 5vw;
+  }
+  #section1 img:nth-child(4) {
+    margin-top: 10vh;
+    width: 4vw;
+    animation: box1 1s linear infinite;
+  }
+  #section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+  #section2 > div {
+    margin: 3vh 0;
+  }
+  #section2 > div:nth-child(2) {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #section2 > div:nth-child(2) h1 {
+    display: inline-block;
+    width: 6vw;
+    padding: 0;
+    margin: 0;
+    font-size: 2vw;
+  }
+  #section2 > div:nth-child(2) img {
+    width: 12vw;
+  }
+  #section2 > div:nth-child(2) img:nth-child(3) {
+    transform: rotateY(180deg);
+  }
+  #section2 img:nth-child(1) {
+    width: 5vw;
+  }
+  #section2 img:nth-child(4) {
+    margin-top: 10vh;
+    width: 4vw;
+    animation: box1 1s linear infinite;
+  }
+  #section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+  #section3 > div {
+    margin: 3vh 0;
+  }
+  #section3 > div:nth-child(2) {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #section3 > div:nth-child(2) h1 {
+    display: inline-block;
+    width: 6vw;
+    padding: 0;
+    margin: 0;
+    font-size: 2vw;
+  }
+  #section3 > div:nth-child(2) img {
+    width: 12vw;
+  }
+  #section3 > div:nth-child(2) img:nth-child(3) {
+    transform: rotateY(180deg);
+  }
+  #section3 img:nth-child(1) {
+    width: 5vw;
+  }
+  #section3 img:nth-child(4) {
+    margin-top: 10vh;
+    width: 4vw;
+    animation: box1 1s linear infinite;
+  }
+  #myModal {
+    color: white;
+    margin-top: 10vh;
+  }
+  #myModal .modal-content {
+    background: transparent;
+  }
+  #myModal .modal-content .modal-header {
+    border: none;
+  }
+  #myModal .modal-content .modal-header h4 {
+    font-size: 3vw;
+  }
+  #myModal .modal-content .modal-body {
+    border: none;
+  }
+  #myModal .modal-content .modal-body h1 {
+    border-bottom: 5px solid #bebebe;
+    margin-bottom: 3vh;
+  }
+  #myModal .modal-content .modal-body p {
+    line-height: 3vh;
+  }
+  #myModal .modal-content .modal-body img {
+    width: 100%;
+    margin-bottom: 3vh;
+  }
+  #myModal .modal-content .modal-footer {
+    border: none;
+  }
+}
+@keyframes box1 {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+}
+@keyframes san {
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@media (max-width: 1350px) and (min-width: 768px) {
+  .navbar-collapse ul:nth-child(2) li a span {
+    display: none !important;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    width: 100vw;
+    min-width: 350px;
+    overflow-x: hidden;
+  }
+  body .navbar-default {
+    height: 65px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  body .navbar-default .container-fluid {
+    height: 65px;
+    background: rgba(0, 0, 0, 0.3);
+    color: red;
+  }
+  body .navbar-default .container-fluid .navbar-header {
+    height: 65px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  body .navbar-default .container-fluid .navbar-header .navbar-toggle {
+    border: none;
+    margin-right: 30px;
+  }
+  body .navbar-default .container-fluid .navbar-header .navbar-toggle .icon-bar {
+    width: 30px;
+    height: 5px;
+  }
+  body .navbar-default .container-fluid .navbar-header a {
+    color: white;
+    padding-top: 0;
+  }
+  body .navbar-default .container-fluid .navbar-header a span {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 7%;
+  }
+  body .navbar-default .container-fluid .navbar-header a span:nth-child(1) {
+    display: none;
+  }
+  body .navbar-default .container-fluid .navbar-header a img {
+    height: 65px;
+    margin: 0;
+    padding: 0;
+    margin-left: -120px;
+    margin-right: -120px;
+  }
+  body .navbar-default .container-fluid .navbar-collapse {
+    background: white;
+  }
+  body .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) li {
+    background: gainsboro;
+    margin: 0px 0 10px 0;
+  }
+  body #section0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+  body #section0 div p:last-child {
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1), transparent);
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  body #section0 div:nth-child(1) img {
+    width: 50vw;
+  }
+  body #section0 div:nth-child(2) img {
+    width: 45vw;
+  }
+  body #section0 div:nth-child(2) img:last-child {
+    width: 1vw;
+    transform: rotateY(180deg);
+  }
+  body #section0 img:nth-child(4) {
+    width: 3vw;
+    position: absolute;
+    bottom: 5vh;
+    background: rgba(0, 0, 0, 0.3);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  }
+  body #section0 img:nth-child(5) {
+    position: absolute;
+    bottom: 5vh;
+    animation: san 1s linear infinite;
+  }
+  body #section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+  body #section1 > div {
+    margin: 2vh 0;
+  }
+  body #section1 > div:nth-child(2) {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #section1 > div:nth-child(2) h1 {
+    display: inline-block;
+    width: 12vw;
+    padding: 0;
+    margin: 0;
+    font-size: 5vw;
+  }
+  body #section1 > div:nth-child(2) img {
+    width: 12vw;
+  }
+  body #section1 > div:nth-child(2) img:nth-child(3) {
+    transform: rotateY(180deg);
+  }
+  body #section1 img:nth-child(1) {
+    width: 20vw;
+  }
+  body #section1 img:nth-child(4) {
+    margin-top: 10vh;
+    width: 10vw;
+    animation: box1 1s linear infinite;
+  }
+  body #section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+  body #section2 > div {
+    margin: 2vh 0;
+  }
+  body #section2 > div:nth-child(2) {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #section2 > div:nth-child(2) h1 {
+    display: inline-block;
+    width: 12vw;
+    padding: 0;
+    margin: 0;
+    font-size: 5vw;
+  }
+  body #section2 > div:nth-child(2) img {
+    width: 12vw;
+  }
+  body #section2 > div:nth-child(2) img:nth-child(3) {
+    transform: rotateY(180deg);
+  }
+  body #section2 img:nth-child(1) {
+    width: 20vw;
+  }
+  body #section2 img:nth-child(4) {
+    margin-top: 10vh;
+    width: 10vw;
+    animation: box1 1s linear infinite;
+  }
+  body #section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+  body #section3 > div {
+    margin: 2vh 0;
+  }
+  body #section3 > div:nth-child(2) {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #section3 > div:nth-child(2) h1 {
+    display: inline-block;
+    width: 12vw;
+    padding: 0;
+    margin: 0;
+    font-size: 5vw;
+  }
+  body #section3 > div:nth-child(2) img {
+    width: 12vw;
+  }
+  body #section3 > div:nth-child(2) img:nth-child(3) {
+    transform: rotateY(180deg);
+  }
+  body #section3 img:nth-child(1) {
+    width: 20vw;
+  }
+  body #section3 img:nth-child(4) {
+    margin-top: 10vh;
+    width: 10vw;
+    animation: box1 1s linear infinite;
+  }
+  body #myModal {
+    color: white;
+    margin-top: 10vh;
+  }
+  body #myModal .modal-content {
+    background: transparent;
+  }
+  body #myModal .modal-content .modal-header {
+    border: none;
+  }
+  body #myModal .modal-content .modal-header h4 {
+    font-size: 3vw;
+  }
+  body #myModal .modal-content .modal-body {
+    border: none;
+  }
+  body #myModal .modal-content .modal-body h1 {
+    border-bottom: 5px solid #bebebe;
+    margin-bottom: 3vh;
+  }
+  body #myModal .modal-content .modal-body p {
+    line-height: 3vh;
+  }
+  body #myModal .modal-content .modal-body img {
+    width: 100%;
+    margin-bottom: 3vh;
+  }
+  body #myModal .modal-content .modal-footer {
+    border: none;
+  }
+}

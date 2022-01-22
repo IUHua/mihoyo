@@ -1,0 +1,341 @@
+@media (min-width: 768px) {
+  .navbar-default {
+    height: 8vh;
+    width: 100%;
+    min-height: 8vh;
+    margin-bottom: 1vh;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .navbar-default .container-fluid {
+    height: 8vh;
+    padding: 0;
+    width: 100%;
+  }
+  .navbar-default .container-fluid .navbar-header {
+    height: 8vh;
+  }
+  .navbar-default .container-fluid .navbar-header a {
+    color: white;
+    padding-top: 0;
+  }
+  .navbar-default .container-fluid .navbar-header a span {
+    display: inline-block;
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+    text-align: center;
+    line-height: 2vw;
+    font-size: 2vw;
+    position: absolute;
+    top: 1vw;
+    left: 3vw;
+  }
+  .navbar-default .container-fluid .navbar-header a img {
+    height: 8vh;
+    margin: 0;
+    padding: 0;
+    margin-right: -6vw;
+  }
+  .navbar-default .container-fluid .navbar-collapse {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 8vh !important;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul {
+    margin: 0;
+    height: 8vh;
+    padding: 0;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(1) {
+    height: 8vh;
+    width: 50vw;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(1) li {
+    height: 100%;
+    line-height: 8vh;
+    width: 15%;
+    text-align: center;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(1) li a {
+    margin: 0;
+    padding: 0;
+    line-height: 8vh;
+    color: white;
+    font-size: 1.3vw;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) {
+    height: 8vh;
+    width: 28vw;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) li {
+    margin: 0;
+    padding: 0;
+    line-height: 8vh;
+    color: white;
+    font-size: 1.3vw;
+    width: 50%;
+    text-align: center;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) li a {
+    margin: 0;
+    padding: 0;
+    line-height: 8vh;
+    color: white;
+    font-size: 1.2vw;
+  }
+  .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) li a span {
+    color: #4c4c3c;
+    display: inline-block;
+    width: 2vw;
+    height: 2vw;
+    font-size: 1.3vw;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 4vh;
+    background: gainsboro;
+    margin-left: 2vw;
+  }
+  .section0 {
+    height: 600px;
+    overflow: hidden;
+    background: url(../img/ysxinwen/ys-xw-bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section0 #carousel-example-generic {
+    display: none;
+  }
+  .section0 .item {
+    width: 25vw;
+    height: 55vh;
+    padding: 15px;
+    margin: 0 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 2em;
+    position: relative;
+  }
+  .section0 .item p {
+    position: absolute;
+    color: #838383;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+  }
+  .section0 .item p span {
+    position: absolute;
+    right: 10%;
+    color: orange;
+  }
+  .section0 .item img {
+    width: 100%;
+  }
+  .section1 {
+    height: 11vh;
+    background: #f0f0f0;
+    padding: 2% 13%;
+  }
+  .section1 button {
+    width: 13%;
+    margin: 0 1%;
+    background: #cfd0d1;
+    border: none;
+  }
+  .section1 .active {
+    background: #393b40;
+    color: #f4d8a8;
+  }
+  .section2 {
+    background: #f0f0f0;
+    padding: 2% 13%;
+  }
+  .section2 ul {
+    list-style: none;
+    padding: 0;
+  }
+  .section2 ul li {
+    margin: 1%;
+    padding: 1%;
+    height: 10vw;
+    background: white;
+  }
+  .section2 ul li img {
+    height: 100%;
+    float: left;
+  }
+  .section2 ul li P:nth-child(2) {
+    font-size: 25px;
+    padding-left: 30%;
+  }
+  .section2 ul li P:nth-child(3) {
+    font-size: 16px;
+    padding-left: 30%;
+    text-align: right;
+    color: #a3a3a3;
+    margin-top: 5vw;
+  }
+}
+@media (max-width: 1350px) and (min-width: 768px) {
+  .navbar-collapse ul:nth-child(2) li a span {
+    display: none !important;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    width: 100vw;
+    min-width: 350px;
+    overflow-x: hidden;
+  }
+  body .navbar-default {
+    height: 65px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  body .navbar-default .container-fluid {
+    height: 65px;
+    background: rgba(0, 0, 0, 0.3);
+    color: red;
+  }
+  body .navbar-default .container-fluid .navbar-header {
+    height: 65px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  body .navbar-default .container-fluid .navbar-header .navbar-toggle {
+    border: none;
+    margin-right: 30px;
+  }
+  body .navbar-default .container-fluid .navbar-header .navbar-toggle .icon-bar {
+    width: 30px;
+    height: 5px;
+  }
+  body .navbar-default .container-fluid .navbar-header a {
+    color: white;
+    padding-top: 0;
+  }
+  body .navbar-default .container-fluid .navbar-header a span {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 7%;
+  }
+  body .navbar-default .container-fluid .navbar-header a span:nth-child(1) {
+    display: none;
+  }
+  body .navbar-default .container-fluid .navbar-header a img {
+    height: 65px;
+    margin: 0;
+    padding: 0;
+    margin-left: -120px;
+    margin-right: -120px;
+  }
+  body .navbar-default .container-fluid .navbar-collapse {
+    background: white;
+  }
+  body .navbar-default .container-fluid .navbar-collapse ul:nth-child(2) li {
+    background: gainsboro;
+    margin: 0px 0 10px 0;
+  }
+  body .section0 {
+    height: 350px;
+    padding: 0 10%;
+    overflow: hidden;
+    background: url(../img/ysxinwen/ys-xw-bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  body .section0 > .item {
+    display: none;
+  }
+  body .section0 #carousel-example-generic {
+    position: relative;
+    margin-bottom: 10%;
+  }
+  body .section0 #carousel-example-generic .carousel-control:nth-child(3) {
+    left: -12%;
+  }
+  body .section0 #carousel-example-generic .carousel-control:nth-child(4) {
+    right: -12%;
+  }
+  body .section0 #carousel-example-generic .carousel-indicators {
+    bottom: -20%;
+  }
+  body .section0 #carousel-example-generic .carousel-inner {
+    height: 230px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  body .section0 #carousel-example-generic .carousel-inner .item .carousel-caption {
+    bottom: -30%;
+    padding: 0;
+    width: 80%;
+    font-size: 18px;
+    left: -5%;
+  }
+  body .section0 #carousel-example-generic .carousel-inner .item p {
+    position: absolute;
+    bottom: -80%;
+    font-size: 16px;
+    color: #a7a7a7;
+    width: 120%;
+    text-align: left;
+    left: 10%;
+  }
+  body .section0 #carousel-example-generic .carousel-inner .item p span {
+    position: absolute;
+    right: 0;
+  }
+  body .section1 {
+    padding: 0;
+    height: 10vh;
+    background: #f0f0f0;
+    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  body .section1 .btn {
+    margin: 0;
+    width: 20%;
+    height: 30%;
+    padding: 0;
+    font-size: 14px;
+    margin-top: 20px;
+    background: gainsboro;
+    color: gray;
+    border: none;
+  }
+  body .section2 ul {
+    background: #f0f0f0;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+  }
+  body .section2 ul li {
+    margin: 10px 0;
+    background: white;
+    height: 70px;
+    position: relative;
+  }
+  body .section2 ul li img {
+    position: absolute;
+    width: 100px;
+    left: 10%;
+    top: 10%;
+  }
+  body .section2 ul li p {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+  }
+  body .section2 ul li p:nth-child(3) {
+    top: 60%;
+  }
+}
