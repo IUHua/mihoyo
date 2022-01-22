@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Huababa</title>
+    <link rel="stylesheet" href="./js/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./js/lunbo/camroll_slider.css">
+    <link rel="stylesheet" href="./css/index.css" media="screen">
+</head>
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="./js/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+<style>
+    #my-slider {
+        width: 100%;
+        height: 71vh;
+        color: white;
+    }
+
+    @media (max-width: 640px) {
+        #my-slider .crs-bar-roll-current {
+            width: 38px;
+            height: 38px;
+        }
+
+        #my-slider .crs-bar-roll-item {
+            width: 30px;
+            height: 30px;
+        }
+    }
+</style>
+
+<body>
+    <div id="container" data-XSwitch>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="aa1 navbar-brand text-right" href="#">
+                        <img data-lazy-src="./img/mihayoulogo.png" alt="">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">产品信息</a></li>
+                        <li><a href="#">了解我们</a></li>
+                        <li><a href="#">加入我们</a></li>
+                        <li><a href="#">新闻动态</a></li>
+                        <li><a href="#">CH/EN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- 固定背景 -->
+        <img data-lazy-src="./img/index/page-bg.png" alt="">
+        <img data-lazy-src="./img/index/page-bg-text.png" alt="">
+        <div class="sections">
+            <!-- 第一屏 -->
+            <div class="section" id="section0">
+                <video src="./MP3/1.mp4" width="100%"></video>
+                <span class="glyphicon glyphicon-play"></span>
+            </div>
+            <!-- 第二屏幕 -->
+            <div class="section" id="section1">
+                <div class="col-md-7">
+                    <img src="./img/index/YS.png" alt="">
+                    <img src="./img/index/BH1.png" alt="">
+                    <img src="./img/index/BH2.png" alt="">
+                    <img src="./img/index/BH3.png" alt="">
+                    <img src="./img/index/WDY.png" alt="">
+                    <img src="./img/index/AI.png" alt="">
+                    <img src="./img/index/MYS.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <div class="YS ">
+                        <h1>原神</h1>
+                        <p>Genshin Impact</p>
+                        <p>/</p>
+                        <p>米哈游全新开放世界角色冒险游戏</p>
+                        <p>你将在游戏中探索一个被称作[提瓦特]的幻想世界</p>
+                        <ul class="nav nav-pills text-right">
+                            <li role="presentation"><a href="./html/yshome.html">游戏官网</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微博</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微信公众号</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">Bilibili</a></li>
+                        </ul>
+                    </div>
+                    <div class="BH1 ">
+                        <h1>崩坏</h1>
+                        <p>Genshin Impact</p>
+                        <p>/</p>
+                        <p>米哈游全新开放世界角色冒险游戏</p>
+                        <p>你将在游戏中探索一个被称作[提瓦特]的幻想世界</p>
+                        <ul class="nav nav-pills text-right">
+                            <li role="presentation"><a href="./html/yshome.html">游戏官网</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微博</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微信公众号</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">Bilibili</a></li>
+                        </ul>
+                    </div>
+                    <div class="BH2 ">
+                        <h1>崩坏2</h1>
+                        <p>Genshin Impact</p>
+                        <p>/</p>
+                        <p>米哈游全新开放世界角色冒险游戏</p>
+                        <p>你将在游戏中探索一个被称作[提瓦特]的幻想世界</p>
+                        <ul class="nav nav-pills text-right">
+                            <li role="presentation"><a href="./html/yshome.html">游戏官网</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微博</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微信公众号</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">Bilibili</a></li>
+                        </ul>
+                    </div>
+                    <div class="BH3 ">
+                        <h1>崩坏3</h1>
+                        <p>Genshin Impact</p>
+                        <p>/</p>
+                        <p>米哈游全新开放世界角色冒险游戏</p>
+                        <p>你将在游戏中探索一个被称作[提瓦特]的幻想世界</p>
+                        <ul class="nav nav-pills text-right">
+                            <li role="presentation"><a href="./html/yshome.html">游戏官网</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微博</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微信公众号</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">Bilibili</a></li>
+                        </ul>
+                    </div>
+                    <div class="WDY ">
+                        <h1>未定义</h1>
+                        <p>Genshin Impact</p>
+                        <p>/</p>
+                        <p>米哈游全新开放世界角色冒险游戏</p>
+                        <p>你将在游戏中探索一个被称作[提瓦特]的幻想世界</p>
+                        <ul class="nav nav-pills text-right">
+                            <li role="presentation"><a href="./html/yshome.html">游戏官网</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微博</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微信公众号</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">Bilibili</a></li>
+                        </ul>
+                    </div>
+                    <div class="AI ">
+                        <h1>AI桌面</h1>
+                        <p>Genshin Impact</p>
+                        <p>/</p>
+                        <p>米哈游全新开放世界角色冒险游戏</p>
+                        <p>你将在游戏中探索一个被称作[提瓦特]的幻想世界</p>
+                        <ul class="nav nav-pills text-right">
+                            <li role="presentation"><a href="./html/yshome.html">游戏官网</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微博</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微信公众号</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">Bilibili</a></li>
+                        </ul>
+                    </div>
+                    <div class="MYS ">
+                        <h1>米游社</h1>
+                        <p>Genshin Impact</p>
+                        <p>/</p>
+                        <p>米哈游全新开放世界角色冒险游戏</p>
+                        <p>你将在游戏中探索一个被称作[提瓦特]的幻想世界</p>
+                        <ul class="nav nav-pills text-right">
+                            <li role="presentation"><a href="./html/yshome.html">游戏官网</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微博</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">微信公众号</a></li>
+                            <li role="presentation"><a href="./html/yshome.html">Bilibili</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <ul>
+                        <li><img src="./img/index/YSxs.png" alt=""></li>
+                        <li><img src="./img/index/BH1sm.png" alt=""></li>
+                        <li><img src="./img/index/BH2sm.png" alt=""></li>
+                        <li><img src="./img/index/BH3sm.png" alt=""></li>
+                        <li><img src="./img/index/WDYsm.png" alt=""></li>
+                        <li><img src="./img/index/AIsm.png" alt=""></li>
+                        <li><img src="./img/index/MYSsm.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- 第三屏 -->
+            <div class="section" id="section2">
+                <div class="pageMHY">
+                    <ul class="nav nav-pills text-center">
+                        <li role="presentation">
+                            <a href="#">荣耀资质</a><a href="#">荣耀资质</a><a href="#">荣耀资质</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">发展历程</a> <a href="#">发展历程</a> <a href="#">发展历程</a>
+                        </li>
+                        <li role="presentation"><a href="#">关于米哈游</a><a href="#">关于米哈游</a><a href="#">关于米哈游</a></li>
+                    </ul>
+                    <!-- 关于米哈游 -->
+                    <div class="GYMHY  MHYnone">
+                        <h4>
+                            <b> 我的的愿望</b>
+                            <p>OUR VISION</p>
+                        </h4>
+                        <p>
+                            [2030年，打造出全球十亿人
+                        </p>
+                        <p>愿意生活在其中的虚拟世界]</p>
+                        <h4>
+                            <b> 关于米哈游</b>
+                            <p>ABOUT MIHOYO</p>
+                        </h4>
+                        <P>
+                            米哈游成立于2011年，致力于为用户提供美好的、超出预期的产品与内容。米哈游陆续推出了多款高品质人气产品，包括《崩坏学园2》、《崩坏3》、《未定事件簿》、《原神》，动态桌面软件《人工桌面》以及社区产品《米游社》，并围绕原创IP打造了动画、漫画、音乐、小说及周边等多元产品。
+                        </P>
+                        <P>
+                            秉承着“<b>技术宅拯救世界</b>
+                            ”的使命，米哈游始终致力于技术研发、探索前沿科技，在卡通渲染、人工智能、云游戏技术等领域积累了领先的技术能力。
+                        </P>
+                        <p>米哈游总部位于中国上海，并在新加坡、美国、加拿大、日本、韩国等国家和地区进行全球化布局。目前，公司员工3900人，来自世界顶尖高校和知名科技公司。</p>
+                        <b>米哈游的研发理念</b>
+                        <p>Something New | Something Exciting | Something Out of Imagination</p>
+
+                    </div>
+                    <!-- 米哈游发展 -->
+                    <div class="FZMHY MHYnone">
+                        <h4>
+                            <b> 发展历程</b>
+                            <p>OUR VISION</p>
+                        </h4>
+                        <img src="./img/index/MHYYS0.png" alt="">
+                        <p><b>全球多平台发行开放世界游戏《原神》</b></p>
+                        <div class="MHYbox">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </div>
+                    </div>
+                    <!-- 荣耀资质 -->
+                    <div class="MHYRYZZ MHYnone">
+                        <h4>
+                            <b> 我的的愿望</b>
+                            <p>OUR VISION</p>
+                        </h4>
+                        <p>
+                            [2030年，打造出全球十亿人
+                        </p>
+                        <p>愿意生活在其中的虚拟世界]</p>
+                        <h4>
+                            <b> 关于米哈游</b>
+                            <p>ABOUT MIHOYO</p>
+                        </h4>
+                        <P>
+                            米哈游成立于2011年，致力于为用户提供美好的、超出预期的产品与内容。米哈游陆续推出了多款高品质人气产品，包括《崩坏学园2》、《崩坏3》、《未定事件簿》、《原神》，动态桌面软件《人工桌面》以及社区产品《米游社》，并围绕原创IP打造了动画、漫画、音乐、小说及周边等多元产品。
+                        </P>
+                        <P>
+                            秉承着“<b>技术宅拯救世界</b>
+                            ”的使命，米哈游始终致力于技术研发、探索前沿科技，在卡通渲染、人工智能、云游戏技术等领域积累了领先的技术能力。
+                        </P>
+                        <p>米哈游总部位于中国上海，并在新加坡、美国、加拿大、日本、韩国等国家和地区进行全球化布局。目前，公司员工3900人，来自世界顶尖高校和知名科技公司。</p>
+                        <b>米哈游的研发理念</b>
+                        <p>Something New | Something Exciting | Something Out of Imagination</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 第四屏 -->
+            <div class="section" id="section3">
+                <div class="page3-header">
+                    <img src="./img/index/STH.png" alt="">
+                    <img src="./img/index/STH-text.png" alt="">
+                    <img src="./img/index/STH-text1.png" alt="">
+                    <img src="./img/index/page3-bg-pic.png" alt="">
+                    <img src="./img/index/page3-bg.png" alt="">
+                    <img src="./img/index/page3-bg1.png" alt="">
+                </div>
+                <div class="page3-content">
+                    <div class="col-md-4">
+                        <ul>
+                            <li>热门岗位</li>
+                            <li>在米哈游工作</li>
+                        </ul>
+                    </div>
+                    <div id="page3-icont" class="col-md-8 page3-none">
+                        <ul class="nav nav-pills text-center">
+                            <li role="presentation"><a href="#">校园招聘</a><a href="./html/professional.html">校园招聘</a><a
+                                    href="#">校园招聘</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#">社会招聘</a>
+                            </li>
+                        </ul>
+                        <div class="nav-content">
+                            <a href="./html/professional.html">
+                                <div class="col-md-4">
+                                    <span class="glyphicon glyphicon-picture"></span>
+                                    <p>质量管理类 <span class="badge">4</span></p>
+                                </div>
+                            </a>
+                            <a href="./html/professional.html">
+                                <div class="col-md-4">
+                                    <span class="glyphicon glyphicon-picture"></span>
+                                    <p>质量管理类 <span class="badge">4</span></p>
+                                </div>
+                            </a>
+                            <a href="./html/professional.html">
+                                <div class="col-md-4">
+                                    <span class="glyphicon glyphicon-picture"></span>
+                                    <p>质量管理类 <span class="badge">4</span></p>
+                                </div>
+                            </a>
+                            <a href="./html/professional.html">
+                                <div class="col-md-4">
+                                    <span class="glyphicon glyphicon-picture"></span>
+                                    <p>质量管理类 <span class="badge">4</span></p>
+                                </div>
+                            </a>
+                            <a href="./html/professional.html">
+                                <div class="col-md-4">
+                                    <span class="glyphicon glyphicon-picture"></span>
+                                    <p>质量管理类 <span class="badge">4</span></p>
+                                </div>
+                            </a>
+                            <a href="./html/professional.html">
+                                <div class="col-md-4">
+                                    <span class="glyphicon glyphicon-picture"></span>
+                                    <p>质量管理类 <span class="badge">4</span></p>
+                                </div>
+                            </a>
+                            <a href="./html/professional.html">
+                                <div class="col-md-4">
+                                    <span class="glyphicon glyphicon-picture"></span>
+                                    <p>质量管理类 <span class="badge">4</span></p>
+                                </div>
+                            </a>
+
+
+                            <span><a href="./html/professional.html">全部职位</a></span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8 page3-none" id="page3-ul">
+                        <ul>
+                            <li>
+                                <p><b>技术宅拯救世界</b></p>
+                                <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                <span>
+                                    <ul>
+                                        <li>
+                                            <p><b>技术宅拯救世界</b></p>
+                                            <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                        </li>
+                                        <li>
+                                            <p><b>技术宅拯救世界</b></p>
+                                            <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                        </li>
+                                        <li>
+                                            <p><b>技术宅拯救世界</b></p>
+                                            <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                        </li>
+                                    </ul>
+                                </span>
+                            </li>
+                            <li>
+                                <p><b>技术宅拯救世界</b></p>
+                                <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                <span>
+                                    <ul>
+                                        <li>
+                                            <p><b>技术宅拯救世界</b></p>
+                                            <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                        </li>
+                                        <li>
+                                            <p><b>技术宅拯救世界</b></p>
+                                            <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                        </li>
+                                        <li>
+                                            <p><b>技术宅拯救世界</b></p>
+                                            <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                        </li>
+                                    </ul>
+                                </span>
+                            </li>
+                            <li>
+                                <p><b>技术宅拯救世界</b></p>
+                                <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                <span>
+                                    <ul>
+                                        <li>
+                                            <p><b>技术宅拯救世界</b></p>
+                                            <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                        </li>
+                                        <li>
+                                            <p><b>技术宅拯救世界</b></p>
+                                            <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                        </li>
+                                        <li>
+                                            <p><b>技术宅拯救世界</b></p>
+                                            <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                        </li>
+                                    </ul>
+                                </span>
+                            </li>
+                            <li>
+                                <p><b>技术宅拯救世界</b></p>
+                                <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                <span>
+                                    <ul>
+                                        <li>
+                                            <p><b>技术宅拯救世界</b></p>
+                                            <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                        </li>
+                                        <li>
+                                            <p><b>技术宅拯救世界</b></p>
+                                            <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                        </li>
+                                        <li>
+                                            <p><b>技术宅拯救世界</b></p>
+                                            <p>技术密集型公司，精英化团队理念，面向未来的产品</p>
+                                        </li>
+                                    </ul>
+                                </span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="section" id="section4">
+
+                <div class="carousel">
+                    <div class="item active">
+                        <div class="col-md-4">
+                            <p>01/04111</p>
+                            <p>2022</p>
+                            <p>2022年中国互联网最互联网最互联网最互联网最互联网最棒</p>
+                            <p>11月26日，中国互联网协会召开中国互联网企业综合实力指数（2021）发布会，中国互联网协会副秘书长宋茂恩在会上正式发布了《中国互联网企业综合实力指数（2021）》。
+                                凭借在“企业规模、盈利、创新能力、成长性、风险防控能力、社会责任”等6大维度10类核心指标上的出色表现，米哈游成功入选“2021年中国互联网综合实力百强企业”榜单，位列第23名（位列上海游戏企业第1名、上海互联网企业第3名），这也是米哈游连续第五次入选该榜单...
+                            </p>
+                            <p>READ MORE <span>&gt;&gt;&gt;</span></p>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-6" id="a123a">
+                            <span></span>
+                            <div class="img-box">
+                                <img src="./img/index/news-pic1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="col-md-4">
+                            <p>01/04222</p>
+                            <p>2022</p>
+                            <p>2022年中国互联网最互联网最互联网最互联网最互联网最棒</p>
+                            <p>11月26日，中国互联网协会召开中国互联网企业综合实力指数（2021）发布会，中国互联网协会副秘书长宋茂恩在会上正式发布了《中国互联网企业综合实力指数（2021）》。
+                                凭借在“企业规模、盈利、创新能力、成长性、风险防控能力、社会责任”等6大维度10类核心指标上的出色表现，米哈游成功入选“2021年中国互联网综合实力百强企业”榜单，位列第23名（位列上海游戏企业第1名、上海互联网企业第3名），这也是米哈游连续第五次入选该榜单...
+                            </p>
+                            <p>READ MORE <span>&gt;&gt;&gt;</span></p>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-6" id="a123a">
+                            <span></span>
+
+                            <div class="img-box">
+                                <img data-lazy-src="./img/index/no1-pic2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-4">
+                            <p>01/04333</p>
+                            <p>2022</p>
+                            <p>2022年中国互联网最互联网最互联网最互联网最互联网最棒</p>
+                            <p>11月26日，中国互联网协会召开中国互联网企业综合实力指数（2021）发布会，中国互联网协会副秘书长宋茂恩在会上正式发布了《中国互联网企业综合实力指数（2021）》。
+                                凭借在“企业规模、盈利、创新能力、成长性、风险防控能力、社会责任”等6大维度10类核心指标上的出色表现，米哈游成功入选“2021年中国互联网综合实力百强企业”榜单，位列第23名（位列上海游戏企业第1名、上海互联网企业第3名），这也是米哈游连续第五次入选该榜单...
+                            </p>
+                            <p>READ MORE <span>&gt;&gt;&gt;</span></p>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-6" id="a123a">
+                            <span></span>
+
+                            <div class="img-box">
+                                <img data-lazy-src="./img/index/no1-pic3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <ol class="No1btn">
+                        <li class="active">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ol>
+                    <canvas id="No1btn" width="150" height="20"></canvas>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <script src="./js/jquery-1.12.4.min.js" charset="utf-8"></script>
+    <script src="./js/quanping/XSwitch-Annotation.js" charset="utf-8"></script>
+</body>
+<script src="./js/EasyLazyload.min.js"></script>
+<script>
+    lazyLoadInit({
+
+        offsetTopm: 0,
+        showTime: 100,
+        onLoadBackEnd: function (i, e) {
+            // console.log("onLoadBackEnd:" + i);//开始加载的事件
+        }
+        , onLoadBackStart: function (i, e) {
+            // console.log("onLoadBackStart:" + i);//结束加载的事件
+        }
+    });
+</script>
+<script src="./js/index.js"></script>
+
+
+</html>
