@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../js/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/ysjuese.css">
+    <title>Document</title>
+</head>
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+<script src="../js/art-template.js"></script>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="glyphicon glyphicon-headphones"></span>
+                    <img src="../img/yshome/yslogo.png" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="../html/yshome.html">首页</a></li>
+                    <li><a href="../html/ysxinwen.html">新闻</a></li>
+                    <li><a href="../html/ysjuese.html">角色</a></li>
+                    <li><a href="../html/ysshijie.html">世界</a></li>
+                    <li><a href="../html/ysmanhua.html">漫话</a></li>
+                    <li><a href="https://bbs.mihoyo.com/ys/">社会</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">成长关爱系统<span class="glyphicon glyphicon-heart"></span> </a></li>
+                    <li><a href="#">登录<span class="glyphicon glyphicon-user"></span> </a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    <div class="section0">
+        <div class="ulbox">
+            <ul>
+                <li class="active">蒙德城</li>
+                <li>璃月港</li>
+                <li>稻妻城</li>
+                <li>期待</li>
+            </ul>
+        </div>
+        <div class="peobox">
+            <span></span>
+            <img src="../img/ysjuese/ys-js-huo.png" alt="">
+            <img src="../img/ysjuese/KLname.png" alt="">
+            <div>
+                <img src="../img/ysjuese/ys-js-fangkuai.jfif" alt="">
+                CV:Mace
+                <img src="../img/ysjuese/ys-js-huatong.png" alt="">
+            </div>
+            <div> 中<span></span>日</div>
+
+            <div>
+                <div>
+                    <img src="../img/ysjuese/ys-js-fangkuai.png" alt="">
+                </div>
+                <div>
+                    <p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
+                    </p>
+                </div>
+            </div>
+            <img src="../img/ysjuese/KLtext.png" alt="">
+            <img src="../img/ysjuese/huababa.png" alt=""> -->
+
+        </div>
+        <div class="navbox">
+            <img src="../img/ysjuese/ys-js-left.png" alt="">
+            <div class="navbox-pic">
+                <div class="renbox">
+                    <img src="../img/ysjuese/KLsm.png" alt="KL">
+                    <p>可莉</p>
+                </div>
+
+
+            </div>
+            <img src="../img/ysjuese/ys-js-right.png" alt="">
+        </div>
+    </div>
+
+
+    <button style="display: none;" type="button" class="btn tianjia btn-primary" data-toggle="modal"
+        data-target="#exampleModal" data-whatever="@fat"></button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="exampleModalLabel">添加角色信息</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="jstitle">
+                        <div class="form-group">
+                            <label for="ysname" class="control-label">角色名称</label>
+                            <input type="text" name="hua1" class="form-control" id="ysname">
+                            <input type="text" name="hua3" class="form-control" placeholder="角色名字首字母(大写)"
+                                id="ysnamesuo">
+                        </div>
+                        <div class="form-group">
+                            <label for="yspeiyin" class="control-label">角色配音</label>
+                            <input type="text" name="hua2" class="form-control" id="yspeiyin">
+                        </div>
+                        <div class="form-group">
+                            <label for="ysjieshao" class="control-label">角色介绍</label>
+                            <textarea class="form-control" name="hua2" id="ysjieshao"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="control-label">角色神之眼</label><br>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" value="huo"> 火
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" value="shui"> 水
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" value="fen"> 风
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" value="lei"> 雷
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" value="yan"> 岩
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" value="bin"> 冰
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputFile">角色头像</label>
+                            <input type="file" id="juesesm">
+                            <label for="exampleInputFile1">角色照片</label>
+                            <input type="file" id="juesebig">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" id="hua" class="btn btn-primary">添加</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<script id="mdpeo" type="text/art-template">
+    <span></span>
+    <img src="../img/ysjuese/ys-js-huo.png" alt="">
+    <img src="../img/ysjuese/KLname.png" alt="">
+    <div>
+        <img src="../img/ysjuese/ys-js-fangkuai.jfif" alt="">
+        CV:Mace
+        <img src="../img/ysjuese/ys-js-huatong.png" alt="">
+    </div>
+    <div> 中<span></span> 日</div>
+    <div>
+        <div>
+            <img src="../img/ysjuese/ys-js-fangkuai.png" alt="">
+        </div>
+        <div>
+            <p>哈哈哈哈哈<br> 哈哈哈哈哈哈</p>
+        </div>
+    </div>
+    <img src="../img/ysjuese/KLtext.png" alt="">
+    <img src="../img/ysjuese/KL.png" alt="">
+</script>
+<script id="lypeo" type="text/art-template">
+    <span></span>
+    <img src="../img/ysjuese/ys-js-yan.png" alt="">
+    <img src="../img/ysjuese/ZLname.png" alt="">
+    <div>
+        <img src="../img/ysjuese/ys-js-fangkuai.jfif" alt="">
+        CV:Mace
+        <img src="../img/ysjuese/ys-js-huatong.png" alt="">
+    </div>
+    <div> 中<span></span> 日</div>
+    <div>
+        <div>
+            <img src="../img/ysjuese/ys-js-fangkuai.png" alt="">
+        </div>
+        <div>
+            <p>哈哈哈哈哈<br> 哈哈哈哈哈哈</p>
+        </div>
+    </div>
+    <img src="../img/ysjuese/ZLtext.png" alt="">
+    <img src="../img/ysjuese/ZL.png" alt="">
+</script>
+<script id="dqpeo" type="text/art-template">
+    <span></span>
+    <img src="../img/ysjuese/ys-js-lei.png" alt="">
+    <img src="../img/ysjuese/LDJJname.png" alt="">
+    <div>
+        <img src="../img/ysjuese/ys-js-fangkuai.jfif" alt="">
+        CV:Mace
+        <img src="../img/ysjuese/ys-js-huatong.png" alt="">
+    </div>
+    <div> 中<span></span> 日</div>
+    <div>
+        <div>
+            <img src="../img/ysjuese/ys-js-fangkuai.png" alt="">
+        </div>
+        <div>
+            <p>哈哈哈哈哈<br> 哈哈哈哈哈哈</p>
+        </div>
+    </div>
+    <img src="../img/ysjuese/LDJJtext.png" alt="">
+    <img src="../img/ysjuese/LDJJ.png" alt="">
+</script>
+<script id="mdnav" type="text/art-template">
+    <img src="../img/ysjuese/ys-js-left.png" alt="">
+    <div class="navbox-pic">
+        <div class="renbox">
+            <img src="../img/ysjuese/KLsm.png" alt="KL">
+            <p>可莉</p>
+        </div>
+      
+    </div>
+    <img src="../img/ysjuese/ys-js-right.png" alt="">
+</script>
+<script id="lynav" type="text/art-template">
+    <img src="../img/ysjuese/ys-js-left.png" alt="">
+    <div class="navbox-pic">
+        <div class="renbox">
+            <img src="../img/ysjuese/ZLsm.png" alt="KL">
+            <p>钟离</p>
+        </div>
+    </div>
+    <img src="../img/ysjuese/ys-js-right.png" alt="">
+</script>
+<script id="dqnav" type="text/art-template">
+    <img src="../img/ysjuese/ys-js-left.png" alt="">
+    <div class="navbox-pic">
+        <div class="renbox">
+            <img src="../img/ysjuese/LDJJsm.png" alt="KL">
+            <p>雷电将军</p>
+        </div>
+    </div>
+    <img src="../img/ysjuese/ys-js-right.png" alt="">
+</script>
+<script src="../js/ysall.js"></script>
+<script src="../js/juese/jsword.js"></script>
+
+<script id="juesepeo1" type="text/html">
+    <span></span>
+    <img src="../img/ysjuese/ys-js-{{a.shenyan}}.png" alt="">
+    <img src="../img/ysjuese/{{a.name}}name.png" alt="">
+    <div>
+        <img src="../img/ysjuese/ys-js-fangkuai.jfif" alt="">
+        CV:{{a.cv}}
+        <img src="../img/ysjuese/ys-js-huatong.png" alt="">
+    </div>
+    <div> 中<span></span> 日</div>
+    <div>
+        <div>
+            <img src="../img/ysjuese/ys-js-fangkuai.png" alt="">
+        </div>
+        <div>
+            <p>{{a.introduce}}</p>
+        </div>
+    </div>
+    <img src="../img/ysjuese/{{a.name}}text.png" alt="">
+    <img src="../img/ysjuese/{{a.name}}.png" alt="">
+</script>
+
+<script id="juesepeo" type="text/html">
+    <span></span>
+    <img src="../img/ysjuese/ys-js-{{aa.shenyan}}.png" alt="">
+    <img src="../img/ysjuese/{{aa.name}}name.png" alt="">
+    <div>
+        <img src="../img/ysjuese/ys-js-fangkuai.jfif" alt="">
+        CV:{{aa.cv}}
+        <img src="../img/ysjuese/ys-js-huatong.png" alt="">
+    </div>
+    <div> 中<span></span> 日</div>
+    <div>
+        <div>
+            <img src="../img/ysjuese/ys-js-fangkuai.png" alt="">
+        </div>
+        <div>
+            <p>{{aa.introduce}}</p>
+        </div>
+    </div>
+    <img src="../img/ysjuese/{{aa.name}}text.png" alt="">
+    <img src="../img/ysjuese/{{aa.name}}.png" alt="">
+</script>
+<script id="juesenav" type="text/art-template">
+        <div class="renbox">
+            <img src="../img/ysjuese/{{arr[1]}}sm.png" alt="{{arr[1]}}">
+            <p>{{arr[0]}}</p>
+        </div>
+</script>
+
+
+<script src="../js/ysjuese.js"></script>
+
+</html>

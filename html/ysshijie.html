@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../js/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/ysshijie.css">
+    <title>Document</title>
+</head>
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+
+<style media="screen">
+    /*简单reset*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*必须，关系到单个page能否全屏显示*/
+    html,
+    body {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #container,
+    .sections,
+    .section {
+        /*必须，兼容，在浏览器不支持transform属性时，通过改变top/left完成滑动动画*/
+        position: relative;
+        /*必须，关系到单个page能否全屏显示*/
+        height: 100%;
+    }
+
+    .section {
+        /*有背景图时必须，关系到背景图能够全屏显示*/
+        background-color: #000;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    /*非必需，只是用来设置背景图，id不会被插件用到*/
+    #section0 {
+        background: url(../img/ysshijie/ys-sj-bg1.png) no-repeat center/cover;
+    }
+
+    #section1 {
+        background: url(../img/ysshijie/ys-sj-bg2.png) no-repeat center/cover;
+
+    }
+
+    #section2 {
+        background: url(../img/ysshijie/ys-sj-bg3.png) no-repeat center/cover;
+
+    }
+
+    #section3 {
+        background: url(../img/ysshijie/ys-sj-bg4.png) no-repeat center/cover;
+
+    }
+
+    /*以下样式用来设置slider样式，可自行修改*/
+    .pages {
+        position: fixed;
+        right: 10px;
+        top: 50%;
+        list-style: none;
+    }
+
+    .pages li {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #fff;
+        margin: 15px 0 0 7px;
+    }
+
+    .pages li.active {
+        margin-left: 0;
+        width: 14px;
+        height: 14px;
+        border: 4px solid #FFFFFF;
+        background: none;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="glyphicon glyphicon-headphones"></span>
+                    <img src="../img/yshome/yslogo.png" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="../html/yshome.html">首页</a></li>
+                    <li><a href="../html/ysxinwen.html">新闻</a></li>
+                    <li><a href="../html/ysjuese.html">角色</a></li>
+                    <li><a href="../html/ysshijie.html">世界</a></li>
+                    <li><a href="../html/ysmanhua.html">漫话</a></li>
+                    <li><a href="https://bbs.mihoyo.com/ys/">社会</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">成长关爱系统<span class="glyphicon glyphicon-heart"></span> </a></li>
+                    <li><a href="#">登录<span class="glyphicon glyphicon-user"></span> </a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    <div id="container" data-XSwitch>
+        <div class="sections">
+            <div class="section" id="section0">
+
+                <div>
+                    <img src="../img/ysshijie/ys-sj-twt.png" alt="">
+                </div>
+                <div>
+                    <img src="../img/ysshijie/ys-sj-textL.png" alt="">
+                    <img src="../img/ysshijie/ys-sj-textR.png" alt="">
+                </div>
+                <div>
+                    <p>这里是七种元素交汇的幻想世界「提瓦特」。</p>
+                    <p>在遥远的过去，人们藉由对神灵的信仰，获赐了驱动元素的力量，得以在荒野中筑起家园。</p>
+                    <p>五百年前，古国的覆灭却使得天地变异…</p>
+                    <p>如今，席卷大陆的灾难已经停息，和平却仍未如期光临。</p>
+                    <p>前往游记精选</p>
+                </div>
+                <img src="../img/ysshijie/ys-sj-bj1top.png" alt="">
+                <img src="../img/ysshijie/ys-js-sanjiao.png" alt="">
+
+            </div>
+            <div class="section" id="section1">
+                <img class="clearfix" src="../img/ysshijie/ys-sj-md.png" alt="">
+                <div>
+                    <img src="../img/ysshijie/ys-sj-textL.png" alt="">
+                    <h1>蒙德</h1>
+                    <img src="../img/ysshijie/ys-sj-textR.png" alt="">
+                </div>
+                <div>
+                    <p>位于提瓦特大陆东北部的自由城邦</p>
+                    <p> 群山和广袤的平原间，自由之风携着蒲公英的气息吹拂过果酒湖，为坐落于湖心岛上的蒙德城送去</p>
+                    <p>风神巴巴托斯的祝福与恩泽。</p>
+                </div>
+
+                <img class="mdbtnmo" src="../img/ysshijie/ys-sj-mdbtn.png" alt="">
+            </div>
+            <div class="section" id="section2">
+                <img class="clearfix" src="../img/ysshijie/ys-sj-ly.png" alt="">
+                <div>
+                    <img src="../img/ysshijie/ys-sj-textL.png" alt="">
+                    <h1>璃月</h1>
+                    <img src="../img/ysshijie/ys-sj-textR.png" alt="">
+                </div>
+                <div>
+                    <p>位于提瓦特大陆东方的富饶港湾。</p>
+                    <p>傲然矗立的山麓与石林、广袤的平原与生机勃勃的河滩共同构成了璃月的丰富地貌，在四季分明的</p>
+                    <p>气候下焕发出多彩的风华。山石奇景间，又埋藏了多少岩之魔神的古老馈赠等待着人们发掘呢？</p>
+                </div>
+
+                <img class="mdbtnly" src="../img/ysshijie/ys-sj-mdbtn.png" alt="">
+            </div>
+            <div class="section" id="section3">
+                <img class="clearfix" src="../img/ysshijie/ys-sj-dq.png" alt="">
+                <div>
+                    <img src="../img/ysshijie/ys-sj-textL.png" alt="">
+                    <h1>稻妻</h1>
+                    <img src="../img/ysshijie/ys-sj-textR.png" alt="">
+                </div>
+                <div>
+                    <p>位于提瓦特大陆远东的封闭群岛。</p>
+                    <p>越过无尽的雷暴，踏上红枫与绯樱眷顾的诸岛，在环绕的砂堤、高耸的断崖与幽秘的山林之中，见</p>
+                    <p>证御建鸣神主尊大御所大人所追寻的永恒。</p>
+                </div>
+
+                <img class="mdbtndq" src="../img/ysshijie/ys-sj-mdbtn.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <button style="display: none;" type="button" class="btn yssj btn-primary btn-lg" data-toggle="modal"
+        data-target="#myModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">蒙德</h4>
+                </div>
+                <div class="modal-body">
+                    <h1>果酒湖</h1>
+                    <p>环绕蒙德城的天然淡水湖泊。</p>
+                    <p>宽广的湖面和粼粼的波光历经千百年不变，水澈见底，入口清冽甘甜。正是这样的水源成就了蒙德美酒的盛名，也让果酒湖成为了蒙德的重要标志之一。</p>
+                    <img src="../img/ysshijie/ys-js-gjh.jpg" alt="">
+                    <h1>鹰翔海滩</h1>
+
+                    <p>从风起地往东延伸至海边，鹰翔海滩与誓言岬共同围成三面环海的陆地，环绕着蒙德东面的海湾。
+                        鉴于海岸线较长且地处浅海位置，经常有蒙德市民前来游玩。偶尔可见苍鹰翱翔于碧浪白沙之上。</p>
+                    <img src="../img/ysshijie/ys-js-yxht.jpg" alt="">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../js/ysall.js"></script>
+<script src="../js/ysshijie.js"></script>
+<script src="../js/quanping/XSwitch-min.js"></script>
+
+</html>

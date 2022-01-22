@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../js/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/ysmanhua.css">
+    <title>Document</title>
+</head>
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+<script src="../js/art-template.js"></script>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="glyphicon glyphicon-headphones"></span>
+                    <img src="../img/yshome/yslogo.png" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="../html/yshome.html">首页</a></li>
+                    <li><a href="../html/ysxinwen.html">新闻</a></li>
+                    <li><a href="../html/ysjuese.html">角色</a></li>
+                    <li><a href="../html/ysshijie.html">世界</a></li>
+                    <li><a href="../html/ysmanhua.html">漫话</a></li>
+                    <li><a href="https://bbs.mihoyo.com/ys/">社会</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">成长关爱系统<span class="glyphicon glyphicon-heart"></span> </a></li>
+                    <li><a href="#">登录<span class="glyphicon glyphicon-user"></span> </a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    <div class="section0">
+        <h1>漫话</h1>
+        <p>这里是七种元素神灵信仰交汇的幻想世界提瓦特。</p>
+        <p>席卷大陆的灾难终于停息，疮痍逐渐被抚平——本应到来的安宁却并没有如期光临风</p>
+        <p>之城「蒙德」。</p>
+        <p>飞扬跋扈的组织「愚人众」借着保护的名义欺压诸国，而来自历史之暗的不祥也在等</p>
+        <p>待着复仇的机会……</p>
+        <button>继续阅读</button>
+        <button>重新开始</button>
+    </div>
+    <div class="section1 ">
+        <div class="col-md-3 col-xs-6">
+            <img src="../img/ysmanhua/ys-mh-mh1.jpg" alt="">
+            <p>第一话</p>
+        </div>
+
+    </div>
+
+
+
+    <button style="display: none;" type="button" class="btn tianjia btn-primary" data-toggle="modal"
+        data-target="#exampleModal" data-whatever="@fat"></button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="exampleModalLabel">添加漫画信息</h4>
+                </div>
+                <div class="form-group">
+                    <label for="yspeiyin" class="control-label">
+                        <h1>漫画集数</h1>
+                    </label>
+                    <input type="text" name="hua2" class="form-control" id="huababa">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputFile">
+                        <h1>封面</h1>
+                    </label>
+                    <input type="file" id="juesesm">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" id="hua" class="btn btn-primary">添加</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/ysall.js"></script>
+<script src="../js/ysmanhua.js"></script>
+<script id="manhua" type="text/art-template">
+    <div class="col-md-3 col-xs-6">
+        <img src="../img/ysmanhua/ys-mh-mh{{arr[0]}}.jpg" alt="">
+        <p>{{arr[1]}} </p>
+    </div>
+
+</script>
+
+</html>
